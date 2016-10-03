@@ -36,20 +36,20 @@ html, body {
 
 .banner {
   width: 100%;
-  min-height: 930px;
+  min-height: 400px;
   background-image: url(images/test.png);
   background-color: #06000a;
   margin-top: 30px;
   display: inline-block;
-  z-index: -1;
-
-
   color: orange;
   font-size: 80px;
+  position: relative;
 }
 .banner span {
-  bottom: 0;
   position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-right: -50%;
 
 }
 
