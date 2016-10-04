@@ -4,11 +4,12 @@
 html, body {
   background-color: #2F3B4B;
   background-image: url("images/diagmonds.png");
+  background-attachment: fixed;
   padding: 0;
   margin: 0;
 }
 .header {
-  height: 30px;
+  height: 43px;
   width: 100%;
   background-color: black;
   margin-top: 0;
@@ -41,6 +42,7 @@ html, body {
   display: block;
   margin: 0 auto;
   background-image: url("images/shattered-dark.png");
+  background-attachment: fixed;
   background-color: #EDE6DE;
   color: #404040;
   font-size: 5em;
@@ -100,5 +102,7 @@ p {
   list-style-type: disc;
   list-style-position: outside;
   margin-right: 1em;
+  padding-right: 20px;
+  padding-left: 20px;
 
 }
