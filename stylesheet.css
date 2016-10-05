@@ -1,26 +1,26 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
 @import url(https://fonts.googleapis.com/css?family=Changa);
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
  * { margin: 0; padding : 0; }
 
 html, body {
   /*background-color: #2F3B4B;*/
   background-color: #000000;
   background-image: url("images/bright-squares.png");
-  background-attachment: scroll;
+  background-attachment: fixed;
   padding: 0;
   margin: 0;
 }
 .header {
   height: 43px;
   width: 100%;
-  background-color: black;
+  background-color: #252525;
   margin-top: 0;
   position: fixed;
   padding-top: 0;
   display: inline-block;
-  z-index: 10;
+  z-index: 1;
 }
 
 .header-title {
@@ -42,28 +42,33 @@ html, body {
 
 .banner {
   width: 100%;
-  min-height: 400px;
+  min-height: 300px;
   display: block;
   margin: 0 auto;
   background-image: url("images/3px-tile.png");
   background-attachment: fixed;
   /*background-color: #EDE6DE;*/
   background-color: #ffffff;
-  color: black;
+  color: white;
   font-size: 5em;
   text-align: center;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
 }
 .title {
-
+  padding: 0 20px 0 20px;
   display: inline-block;
   margin-right: 0%;
   text-align: center;
-  margin-top: 175px;
+  margin-top: 125px;
   font-family: 'Changa', sans-serif;
   font-weight: 600;
-  text-shadow: 0 6px rgba(0, 0, 0, 0.19)
+  /*text-shadow: 0 6px rgba(0, 0, 0, 0.19);*/
+  /*background-color: #068099;*/
+  background-color:rgba(0, 95, 107, 0.8);
+  background-clip: padding-box;
+
 
 }
 
@@ -78,6 +83,10 @@ html, body {
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color:rgba(147, 147, 147, 0.6);
+  margin-top: -1em;
+  background-clip: padding-box;
+  padding-top: 20px;
 
 }
 
@@ -86,7 +95,7 @@ h1 {
   font-family: 'Droid Arabic Naskh', serif;;
   /*background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));*/
   background-clip: content-box;
-  color: white;
+  color: #00d5ed;
   font-weight: normal;
 
 }
@@ -101,7 +110,7 @@ img {
 
 p {
 
-  line-height: 2;
+  line-height: 1.5;
   /*padding-right: 20px;
   padding-left: 20px;*/
   font-family: 'Droid Arabic Kufi', sans-serif;
