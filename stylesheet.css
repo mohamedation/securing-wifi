@@ -1,126 +1,294 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-
-@import url(https://fonts.googleapis.com/css?family=Changa);
-
- * { margin: 0; padding : 0; }
+@import url(https://use.fontawesome.com/9e8a9b5d8e.css);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Arabic Naskh', serif;
+}
 
 html, body {
-  /*background-color: #2F3B4B;*/
-  background-color: #000000;
-  background-image: url("images/bright-squares.png");
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
+    background-color: #000000;
+    background-image: url("images/bright-squares.png");
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+a {
+  color: #EB7B59;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
 }
 .header {
-  height: 43px;
-  width: 100%;
-  background-color: #252525;
-  margin-top: 0;
-  position: fixed;
-  padding-top: 0;
-  display: inline-block;
-  z-index: 1;
+    height: 60px;
+    width: 100%;
+    background-color: #252525;
+    margin-top: 0;
+    position: fixed;
+    padding-top: 0;
+    display: inline-block;
+    z-index: 1;
 }
 
 .header-title {
-  color: white;
-  margin: auto;
-  text-align: right;
-  font-size: 14px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 5px;
+    color: white;
+    margin: auto;
+    text-align: right;
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
 .nav {
-  color: white;
-  float: left;
-  margin-top: 5px;
-  margin-left: 5px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .banner {
-  width: 100%;
-  min-height: 300px;
-  display: block;
-  margin: 0 auto;
-  background-image: url("images/3px-tile.png");
-  background-attachment: fixed;
-  /*background-color: #EDE6DE;*/
-  background-color: #ffffff;
-  color: white;
-  font-size: 5em;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 2;
+    width: 100%;
+    min-height: 300px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("images/0c800e9a.png");
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
 }
+
 .title {
-  padding: 0 20px 0 20px;
-  display: inline-block;
-  margin-right: 0%;
-  text-align: center;
-  margin-top: 125px;
-  font-family: 'Changa', sans-serif;
-  font-weight: 600;
-  /*text-shadow: 0 6px rgba(0, 0, 0, 0.19);*/
-  /*background-color: #068099;*/
-  background-color:rgba(0, 95, 107, 0.8);
-  background-clip: padding-box;
-
-
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    margin-right: 0%;
+    text-align: center;
+    margin-top: 125px;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-weight: 600;
+    background-color: rgba(0, 95, 107, 0.8);
+    background-clip: padding-box;
 }
-
 
 .content {
-  float: inherit;
-  text-align: right;
-  /*color: #E4DFD8;*/
-  color: white;
+    float: inherit;
+    text-align: right;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(147, 147, 147, 0.6);
+    margin-top: -1em;
+    background-clip: padding-box;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.c1 {
+    text-align: center;
+    max-width: 100%;
+    background-clip: padding-box;
+    padding: 2em;
+}
+
+.c1 img {
+    width: 170px;
+}
+
+.c1right {
+    float: right;
+    width: 33%;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.c1right .fa {
+    font-size: 8vw;
+}
+
+.c1right a, .c1left a, .c1center a {
+    text-decoration: none;
+    color: white;
+}
+
+.c1right a:hover, .c1left a:hover, .c1center a:hover {
+    color: #4cb1bf;
+    text-decoration: none;
+
+}
+
+.c1left {
+    float: left;
+    width: 33%;
+    font-size: 2vw;
+}
+
+.c1left .fa {
+    font-size: 8vw;
+}
+
+.c1center {
+    display: inline-block;
+    width: 33%;
+    font-size: 2vw;
+}
+
+.c1center .fa {
+    font-size: 8vw;
+}
+.cont {
+  font-family: 'Droid Arabic Kufi', serif;
+  list-style: circle;
+}
+h1 {
+    padding-top: 20px;
+    font-family: 'Droid Arabic Kufi', serif;
+    background-clip: content-box;
+    color: #4cb1bf;
+    font-weight: normal;
+    border-bottom: 1px solid #aaa;
+    font-size: 42px;
+}
+h2 {
+  margin-top: 20px;
+  font-family: 'Droid Arabic Kufi', serif;
+  color: #4cb1bf;
+  font-weight: normal;
+  border-top: 1px solid #aaa;
+  font-size: 24px;
+  margin-bottom: -20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 20px auto;
+    border: 4px solid  rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-right: 1em;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    margin-top: 20px;
+
+}
+ul li {
+  font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.social h2 {margin-bottom: 20px;}
+.social {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fa-facebook-official {
+color: #3b5998;
+background-color: white;
+line-height: 38px;
+margin-left: 5px;
+}
+.fa-twitter-square {
+  color: #1da1f2;
+  background-color: white;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.fa-google-plus-square {
+  color: #dd4b39;
+  background-color: white;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.fa-linkedin-square {
+  color: #0077b5;
+  background-color: white;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.fa-pinterest-square {
+  color: #bd081c;
+  background-color: white;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.fa-reddit-square {
+  color: #ff4500;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 50%;
+}
+.footerbg {
+  width: 100%;
+  height: 200px;
+  background-color: #222222;
+  background-image: url("images/457b2273.png");
+  border-top: 10px dotted #222222;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.footerc {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color:rgba(147, 147, 147, 0.6);
-  margin-top: -1em;
-  background-clip: padding-box;
-  padding-top: 20px;
+  margin-top: 50px;
 
 }
-
-h1 {
-  padding-top: 20px;
-  font-family: 'Droid Arabic Naskh', serif;;
-  /*background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));*/
-  background-clip: content-box;
-  color: #00d5ed;
-  font-weight: normal;
+.footerr {
+  text-align: right;;
+  float: right;
+  width: 50%;
+  color: #E6E6E6;
 
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  padding: 20px 0 20px 0;
+.footerr .fa {
+  color: #E6E6E6;
+  background-color: transparent;
+  font-size: 30px;
+  margin-left: 3px;
+  padding-right: 5px;
 }
+.footerc a {
+  color: #E6E6E6;
 
-p {
+}
+.footerc .fa:hover, a:hover {
+  color: #EB7B59;
+}
+.footerl {
+  text-align: left;
+  float: left;
+  width: 50%;
+  color: #E6E6E6;
 
-  line-height: 1.5;
-  /*padding-right: 20px;
-  padding-left: 20px;*/
+
+}
+h3 {
+  color: #4cb1bf;
   font-family: 'Droid Arabic Kufi', sans-serif;
-}
-
-.disc {
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-right: 1em;
-  padding-right: 20px;
-  padding-left: 20px;
-
+  font-weight: normal;
+  font-size: 22px;
 }
