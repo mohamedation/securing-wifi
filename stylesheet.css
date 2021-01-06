@@ -13,6 +13,7 @@ html, body {
     background-attachment: fixed;
     padding: 0;
     margin: 0;
+    font-size: 1.1em;
 }
 
 a {
@@ -191,7 +192,7 @@ img {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.85;
     font-family: 'Droid Arabic Kufi', sans-serif;
     margin-top: 20px;
 }
