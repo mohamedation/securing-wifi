@@ -112,13 +112,13 @@ a {
 .c1right {
     float: right;
     width: 33%;
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: none;
     line-height: 1.5;
 }
 
 .c1right .fa, .c1left .fa, .c1center .fa  {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 
@@ -136,7 +136,7 @@ a {
 .c1left {
     float: left;
     width: 33%;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
@@ -146,7 +146,7 @@ a {
 .c1center {
     display: inline-block;
     width: 33%;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
