@@ -57,7 +57,7 @@ a {
     margin: 0 auto;
     background-image: url("images/0c800e9a.png");
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -71,8 +71,7 @@ a {
     text-align: center;
     margin-top: 125px;
     font-family: 'Droid Arabic Kufi', serif;
-    font-weight: 600;
-    background-color: rgba(0, 95, 107, 0.8);
+    font-weight: 600;   
     background-clip: padding-box;
 }
 .title:lang(en) {
@@ -113,14 +112,15 @@ a {
 .c1right {
     float: right;
     width: 33%;
-    font-size: 2vw;
+    font-size: 35px;
     text-decoration: none;
     line-height: 1.5;
 }
 
-.c1right .fa {
-    font-size: 10vw;
+.c1right .fa, .c1left .fa, .c1center .fa  {
+    font-size: 4em;
 }
+
 
 .c1right a, .c1left a, .c1center a {
     text-decoration: none;
@@ -136,25 +136,21 @@ a {
 .c1left {
     float: left;
     width: 33%;
-    font-size: 2vw;
+    font-size: 35px;
     line-height: 1.5;
 }
 
 
-.c1left .fa {
-  font-size: 10vw;
-}
+
 
 .c1center {
     display: inline-block;
     width: 33%;
-    font-size: 2vw;
+    font-size: 35px;
     line-height: 1.5;
 }
 
-.c1center .fa {
-    font-size: 10vw;
-}
+
 .cont {
   font-family: 'Droid Arabic Kufi', serif;
   list-style: circle;
