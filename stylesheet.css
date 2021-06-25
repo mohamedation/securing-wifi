@@ -273,8 +273,10 @@ margin-left: 5px;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 50px;
-
+  margin-top: 35px;
+}
+.footerc.ar {
+  margin-top: 10px;
 }
 .footerr {
   text-align: right;
@@ -311,4 +313,12 @@ h3 {
   font-family: 'Droid Arabic Kufi', sans-serif;
   font-weight: normal;
   font-size: 22px;
+}
+
+.bmc {
+  float: right;
+}
+.bmc img {
+  height: 35px;
+  border: none;
 }
