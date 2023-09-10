@@ -85,6 +85,46 @@ nav {
   justify-content: space-around;
   width: 90px;
 }
+.main-menu .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .main-menu li {display: none;}
+  .main-menu li.toggle, .main-menu .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-menu.main-menu.responsive {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100vw;
+    height: 100vh;
+    background: #101927;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-menu.responsive li {
+    display: unset;
+    width: auto;
+  }
+  .main-menu.responsive .toggle {
+    position: absolute;
+    right: 13px;
+    top: -92px;
+    width: 36px;
+  }
+  .main-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 .content {
   float: inherit;
@@ -279,6 +319,9 @@ footer .support a {
 }
 
 @media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 3.5em;
+  }
   footer {
     height: 300px;
   }

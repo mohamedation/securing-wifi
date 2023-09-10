@@ -85,7 +85,7 @@
           /></a>
         </div>
         <nav>
-          <ul class="main-menu">
+          <ul id="main-nav" class="main-menu">
             <li><a href="about.html">About</a></li>
             <li><a href="audio.html">Audio</a></li>
             <li><a href="app.html">App</a></li>
@@ -93,6 +93,11 @@
               <a href="https://github.com/mohamedation/securing-wifi">Github</a>
             </li>
             <li><a href="/index.html">Arabic</a></li>
+            <li class="toggle">
+              <a href="javascript:void(0);" class="icon" onclick="nav()">
+                <img src="../images/icons/bars.svg" style="width: 36px" />
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -199,6 +204,18 @@
           <a href="/en/app.html">App</a>
         </div>
       </div>
+      <script>
+        function nav() {
+          var x = document.getElementById("main-nav");
+          if (x.className === "main-menu") {
+            x.className += " responsive";
+            document.body.style.overflowY = "hidden";
+          } else {
+            x.className = "main-menu";
+            document.body.style.overflowY = "unset";
+          }
+        }
+      </script>
     </footer>
   </body>
 </html>
