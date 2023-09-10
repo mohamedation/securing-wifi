@@ -1,20 +1,133 @@
-<h1 dir="rtl">دليل تأمين الشبكات اللاسلكية</h1>
+<p align="center"><a href="https://mohamedation.com/securing-wifi/en/" target="_blank" rel="noopener noreferrer"><img src="images/logo/SecuringWiFi.svg?raw=true" alt="Secure WiFi logo"></a></p>
+<h1 align="center">Securing Wireless Networks | Guide</h1>
+<p  align="center">Learn how to secure your WiFi network</p>
+<p align="center">
 
-<p dir="rtl">
-كان هدفي ان اقدم دليل مبسط لشرح كيفية تأمين الشبكات اللاسلكية المنزلية لما وجدته من عدم اهتمام اصحاب الشبكات اللاسلكية لاعدادات الشبكة ربما لعدة اسباب من اهمهم قلة المعرفة سواء لكيفية تأمين الشبكة او للمخاطر المحيطة بعدم تأمينها.
-في عام 2013 عندما فكرت في طريقة مناسبة، وجدت ان اقوم بشرح طرق التأمين و نبذة عن المخاطر بدون شرح تفاصيل وعدم التطرق الي المصطلحات التقنية لجعل الدليل خفيف بالنسبة للمستخدم المنزلي الذي في الاغلب قد يكون غير مهتم بالامور التقنية للموضوع. وقتها، وجدت ان افضل طريقة هي في صورة كتيب "PDF" لم تتعدي صفحاته الـ30 و تمنيت ان يصل لأكبر عدد من القراء للإفادة.<br>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-<q>"كُتيب عملي وبسيط، يستطيع أي شخص الاعتماد على المعلومات التي به؛ لتأمين شبكته بصورة قوية وفعالة." - </q>
-<a href="http://librebooks.org/secure-wireless-networks-for-home-users/">موقع كتب عربية حرة</a><br>
-
-<q>"لذا يأتي هذا الكُتيب بشرح مبسط لكيفية تأمين المستخدم المنزلي للراوتر الخاص به، وما هي المخاطر المحتملة من استطاعة شخص الوصول إلى شبكتك واختراقها، مع بعض الإرشادات في النهاية كتخليص لما تم ذكره في متن الكُتيب." </q>
-<a href="https://goo.gl/Zd93L3">موقع صحيفة الرؤية</a><br>
-
-منذ فترة قررت ان بعض التعديلات مطلوبة لمعالجة بعض الامور سواء كانت لغوية او فنية فوجدت لتسهيل الأمور علي القراء، العمل علي جعل الدليل في شكل موقع يتكون من صفحة واحدة يمكن قراءته من علي اي جهاز بسهولة بدون تحميل اي ملفات وايضا يسمح للعمل المستمر علي الدليل وتغطية المخاطر او الاعدادات التي قد تظهر مستقبليا.
-وبما ان الدليل الأصلي كان مفتوح المصدر، وجدت ان "github" هو المكان المثالي لاستضافة المشروع للسماح لمن يريد بالعمل علي الدليل وتحسينه وتطويره وتحقيقا لما اتمناه؛ ترجمته الي معظم اللغات ليصل الي أكبر عدد ممكن. لذلك هو مرخص تحت "(CC BY-NC-SA 4.0)" او <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar">نَسب المُصنَّف - غير تجاري - الترخيص بالمثل 4.0 دولي</a>
 </p>
-<h1 dir="ltr">Securing Wireless Networks | Guide"</h1>
-<p dir="ltr">
-My goal was to create a simple, easy to understand guide to explain how to properly secure home wireless networks (WiFi networks) and to explain the risks associated with leaving the network unsecured, because a great number of home users neglect the proper way to secure and configure their networks due to lack of knowledge and understanding. In 2013, I presented this guide in Arabic and in PDF format and I figured that I keep it very simple with as few technical terms as possible to target the ordinary home user who might not be interested in technology or how things work. This 30 page PDF guide got some attention and a few reviews on a few websites.
-A few while ago, I decided to work on a new version to edited some mistakes and update the guide and I decided to make it even easier for everyone to get to it without downloading a PDF and never actually reading it and that's why I choose to make it as a one page website that would just work on computers, tablets, and mobile devices. It would also make it easier to modify the guide as needed and maybe work on translating it to different languages so it can reach as many people as possible and since my original project was open sourced, I found that github is the perfect place to host this project to allow other to improve it, add to it, and translate it under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">the Attribution-NonCommercial-ShareAlike 4.0 International license</a>
+
+## Overview
+
+I wanted to create a simple guide on how to secure home Wi-Fi networks. I published a 30-page PDF in Arabic in 2013, and it was well-received. I have since updated the guide and made it available as a one-page website and an Android app. The goal is to make it easier for people to learn how to secure their home Wi-Fi networks.
+
+- The guide is designed to be simple and easy to understand, even for non-technical users.
+- It covers the basics of Wi-Fi security, such as changing the default password, enabling WPA2 encryption, not broadcasting your SSID, and more.
+- The guide is available in multiple formats, including a PDF, a website, and an Android app.
+- The goal of the guide is to help people secure their home Wi-Fi networks and protect themselves from cyberattacks.
+
+## Contributing
+
+Everyone is welcome to contribute to this guide, whether by improving the existing content or translating it into other languages.
+
+### Improving the Guide
+
+If you find any errors in the guide, or if you have suggestions for improvement, please open an issue on the GitHub repository. You can also submit a pull request with your changes.
+
+### Translating the Guide
+
+To translate the guide into another language, create a new folder in the root directory with the language code, such as `AR` for Arabic, `EN` for English, or `ES` for Spanish. Inside the folder, create an `index.html` file with the translation of the guide.
+
+The translation should be as accurate and idiomatic as possible.
+
+Once you have finished the translation, open a pull request with your changes.
+
+Thank you for your contributions!
+
+## Supporting the Project
+
+If you found this guide useful, you can support the project by donating using Ko-fi or Buy Me a Coffee.
+
+<p align="center">
+
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mohamedation) [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mohamedation)
+
 </p>
+
+Your donation will be greatly appreciated and will help me continue to create helpful guides like this one and other projects.
+
+You can also support the project by spreading the word and sharing the guide with your friends and family.
+
+Thank you for your support!
+
+## Feedback
+
+If you have any feedback on the guide, please feel free to leave a comment on the GitHub repository. I would love to hear from you and learn how I can improve the guide.
+
+<div dir="rtl">
+
+<p align="center"><a href="https://mohamedation.com/securing-wifi/ar/" target="_blank" rel="noopener noreferrer"><img src="images/logo/SecuringWiFi-ar.svg?raw=true" alt="شعار تأمين الواي فاي"></a></p>
+<h1 align="center">تأمين الشبكات اللاسلكية</h1>
+<p  align="center">تعلم كيفية تأمين شبكة الواي فاي الخاصة بك</p>
+<p align="center" text-align="center">
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+</p>
+
+<h2 align="right">
+نظرة عامة
+</h2>
+<p align="right">
+أردت إنشاء دليل بسيط حول كيفية تأمين شبكات Wi-Fi المنزلية. لقد نشرت كتابًا إلكترونيًا من 30 صفحة باللغة العربية في عام 2013 ، وقد حظي بقبول جيد. لقد قمت منذ ذلك الحين بتحديث الدليل وجعله متاحًا كموقع ويب من صفحة واحدة وتطبيق Android. الهدف هو تسهيل تعلم الناس كيفية تأمين شبكات Wi-Fi المنزلية الخاصة بهم.
+
+- الدليل مصمم ليكون بسيطًا وسهل الفهم حتى للمستخدمين غير التقنيين.
+- يغطي أساسيات أمن Wi-Fi ، مثل تغيير كلمة المرور الافتراضية ، و enabling تشفير WPA2 ، وعدم بث SSID الخاص بك ، والمزيد.
+- الدليل متاح في عدة تنسيقات ، بما في ذلك PDF ، وموقع ويب ، وتطبيق Android.
+- الهدف من الدليل هو مساعدة الناس على تأمين شبكات Wi-Fi المنزلية الخاصة بهم وحماية أنفسهم من الهجمات الإلكترونية.
+</p>
+
+<h2 align="right">
+المساهمة</h2>
+<p align="right">
+يُرحب بالجميع للمساهمة في هذا الدليل ، سواء من خلال تحسين المحتوى الحالي أو ترجمته إلى لغات أخرى.
+</p>
+<h2 align="right">
+تحسين الدليل</h2>
+<p align="right">
+إذا وجدت أي أخطاء في الدليل ، أو إذا كان لديك اقتراحات للتحسين ، فيرجى فتح مشكلة في مستودع GitHub. يمكنك أيضًا تقديم طلب سحب مع تغييراتك.
+</p>
+<h2 align="right">
+ترجمة الدليل</h2>
+<p align="right">
+لترجمة الدليل إلى لغة أخرى ، قم بإنشاء مجلد جديد في الدليل الجذر مع رمز اللغة ، مثل `AR` للغة العربية ، `EN` للغة الإنجليزية ، أو `ES` للغة الإسبانية. داخل المجلد ، قم بإنشاء ملف `index.html` مع ترجمة الدليل.
+
+يجب أن تكون الترجمة دقيقة ومحلية قدر الإمكان.
+
+بمجرد الانتهاء من الترجمة ، قم بفتح طلب سحب مع تغييراتك.
+
+شكرًا على مساهماتك!
+
+</p>
+<h2 align="right">
+دعم المشروع</h2>
+<p align="right">
+إذا وجدت هذا الدليل مفيدًا ، يمكنك دعم المشروع بالتبرع باستخدام Ko-fi أو Buy Me a Coffee.
+</p>
+<p align="center">
+
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mohamedation) [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mohamedation)
+
+</p>
+<p align="right">
+تبرعك سيكون موضع تقدير كبير وسيساعدني على الاستمرار في إنشاء أدلة مفيدة مثل هذه وغيرها من المشاريع.
+
+يمكنك أيضًا دعم المشروع بنشر الكلمة ومشاركة الدليل مع أصدقائك وعائلتك.
+
+شكرًا لدعمك!
+
+</p>
+<h2 align="right">
+ملاحظات</h2>
+<p align="right">
+إذا كان لديك أي تعليقات على الدليل ، فيرجى ان لا تتردد في ترك تعليق على github. يسعدني أن أسمع منك وأن أتعلم كيف يمكنني تحسين الدليل.</p>
+</div>
+
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg

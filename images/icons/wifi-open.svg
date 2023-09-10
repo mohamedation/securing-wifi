@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 -960 960 960"
+   width="48"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="wifi-open.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="17.9375"
+     inkscape:cx="23.972125"
+     inkscape:cy="24.445993"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 232,-357 -63,-63 c 46.66667,-46.66667 95.5,-81.66667 146.5,-105 51,-23.33333 105.83333,-35 164.5,-35 58.66667,0 113.5,11.66667 164.5,35 51,23.33333 99.83333,58.33333 146.5,105 l -63,63 c -40.66667,-40.66667 -81.66667,-69.66667 -123,-87 -41.33333,-17.33333 -83,-26 -125,-26 -42,0 -83.66667,8.66667 -125,26 -41.33333,17.33333 -82.33333,46.33333 -123,87 z M 63,-526 0,-589 c 62,-63.33333 134.16667,-114.33333 216.5,-153 82.33333,-38.66667 170.16667,-58 263.5,-58 93.33333,0 181.16667,19.33333 263.5,58 82.33333,38.66667 154.5,89.66667 216.5,153 l -63,63 C 838.33333,-582 774.16667,-626.66667 704.5,-660 634.83333,-693.33333 560,-710 480,-710 c -80,0 -154.83333,16.66667 -224.5,50 -69.66667,33.33333 -133.83333,78 -192.5,134 z m 417,417 148,-149 c -19.33333,-19.33333 -41.5,-34.5 -66.5,-45.5 -25,-11 -52.16667,-16.5 -81.5,-16.5 -29.33333,0 -56.5,5.5 -81.5,16.5 -25,11 -47.16667,26.16667 -66.5,45.5 z"
+     id="path1"
+     sodipodi:nodetypes="ccsssccssscccsssccssscccssscc"
+     style="fill:#aa0000" />
+</svg>
