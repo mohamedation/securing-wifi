@@ -1,11 +1,11 @@
 <p align="center"><a href="https://mohamedation.com/securing-wifi/en/" target="_blank" rel="noopener noreferrer"><img src="images/logo/SecuringWiFi.svg?raw=true" alt="Secure WiFi logo"></a></p>
 <h1 align="center">Securing Wireless Networks | Guide</h1>
 <p  align="center">Learn how to secure your WiFi network</p>
-<p align="center">
+<div align="center">
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-</p>
+</div>
 
 ## Overview
 
@@ -38,11 +38,11 @@ Thank you for your contributions!
 
 If you found this guide useful, you can support the project by donating using Ko-fi or Buy Me a Coffee.
 
-<p align="center">
+<div align="center">
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mohamedation) [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mohamedation)
 
-</p>
+</div>
 
 Your donation will be greatly appreciated and will help me continue to create helpful guides like this one and other projects.
 
@@ -54,14 +54,15 @@ Thank you for your support!
 
 If you have any feedback on the guide, please feel free to leave a comment on the GitHub repository. I would love to hear from you and learn how I can improve the guide.
 
-<div dir="rtl">
+<br><br><br><div dir="rtl">
 
 <p align="center"><a href="https://mohamedation.com/securing-wifi/ar/" target="_blank" rel="noopener noreferrer"><img src="images/logo/SecuringWiFi-ar.svg?raw=true" alt="شعار تأمين الواي فاي"></a></p>
-<h1 align="center">تأمين الشبكات اللاسلكية</h1>
 <p  align="center">تعلم كيفية تأمين شبكة الواي فاي الخاصة بك</p>
-<p align="center" text-align="center">
+<div align="center" text-align="center">
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-</p>
+
+</div>
 
 <h2 align="right">
 نظرة عامة
@@ -102,11 +103,11 @@ If you have any feedback on the guide, please feel free to leave a comment on th
 <p align="right">
 إذا وجدت هذا الدليل مفيدًا ، يمكنك دعم المشروع بالتبرع باستخدام Ko-fi أو Buy Me a Coffee.
 </p>
-<p align="center">
+<div align="center">
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mohamedation) [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mohamedation)
 
-</p>
+</div>
 <p align="right">
 تبرعك سيكون موضع تقدير كبير وسيساعدني على الاستمرار في إنشاء أدلة مفيدة مثل هذه وغيرها من المشاريع.
 
@@ -119,9 +120,9 @@ If you have any feedback on the guide, please feel free to leave a comment on th
 ملاحظات</h2>
 <p align="right">
 إذا كان لديك أي تعليقات على الدليل ، فيرجى ان لا تتردد في ترك تعليق على github. يسعدني أن أسمع منك وأن أتعلم كيف يمكنني تحسين الدليل.</p>
-</div>
+</div><br><br><br>
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
