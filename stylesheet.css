@@ -94,6 +94,9 @@ nav {
     float: right;
     display: block;
   }
+  .main-menu li.toggle, .main-menu .icon:lang(ar) {
+    float: left;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -118,6 +121,11 @@ nav {
     right: 13px;
     top: -92px;
     width: 36px;
+  }
+  .main-menu.responsive .toggle:lang(ar) {
+    right: unset;
+    left: 13px;
+    top: -106px;
   }
   .main-menu.responsive a {
     float: none;
@@ -320,7 +328,7 @@ footer .support a {
 
 @media only screen and (max-width: 992px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   footer {
     height: 300px;
@@ -340,5 +348,8 @@ footer .support a {
   }
   footer .container-xl .footer-right {
     width: 90%;
+  }
+  .col-2 {
+    flex-direction: column;
   }
 }
